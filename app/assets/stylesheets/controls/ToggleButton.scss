@@ -1,0 +1,21 @@
+.ToggleButton {
+
+  padding: 40px 40px 10px 5px;
+  font-size: 12px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #565A5E;
+  cursor: pointer;
+  width: 70px;
+
+  &:hover:not(.active) {
+    background-color: var(--white);
+    filter: brightness(60%);
+  }
+
+  &.active {
+    color: #C8C8C8;
+    background-color: #565A5E;
+    cursor: default;
+  }
+}

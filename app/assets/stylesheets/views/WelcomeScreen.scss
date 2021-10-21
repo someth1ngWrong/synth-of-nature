@@ -1,0 +1,19 @@
+.WelcomeScreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Button {
+  font-size: 294px;
+  text-transform: uppercase;
+  letter-spacing: -31px;
+  background-color: #ffffff00;
+  text-decoration: underline;
+  color:#565A5E;
+}
+.Button:hover {
+  background-color: #ffffff00;
+  text-decoration: none;
+}

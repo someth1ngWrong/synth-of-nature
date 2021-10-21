@@ -1,0 +1,17 @@
+.ButtonSet {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  h3 {
+    margin-bottom: 11px;
+  }
+
+  & > div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 140px;
+  }
+}
